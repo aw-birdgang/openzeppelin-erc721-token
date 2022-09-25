@@ -14,15 +14,15 @@ const {
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.9",
-  // networks: {
-  //   rinkeby: {
-  //     url: `https://rinkeby.infura.io/v3/${INFURA_KEY}`,
-  //     accounts: [`${DEPLOYER_PRIVATE_KEY}`],
-  //   },
-  // },
-  // etherscan: {
-  //   apiKey: {
-  //     rinkeby: ETHERSCAN_KEY
-  //   }
-  // }
+  networks: {
+    rinkeby: {
+      url: `https://rinkeby.infura.io/v3/${INFURA_KEY}`,
+      accounts: [`${DEPLOYER_PRIVATE_KEY}`],
+    },
+  },
+  etherscan: {
+    apiKey: {
+      rinkeby: ETHERSCAN_KEY
+    }
+  }
 };
