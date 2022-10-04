@@ -94,3 +94,11 @@ name: "birdgang"
 }
 
 ````
+
+
+
+# opensea
+```
+https://docs.opensea.io/docs/metadata-standards
+
+```
