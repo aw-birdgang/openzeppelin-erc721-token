@@ -10,3 +10,6 @@ data/transfers/*
 
 #webstorm (jetbrains)
 .idea
+
+#resources
+metadata*
